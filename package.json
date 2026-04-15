@@ -17,6 +17,7 @@
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "typecheck": "tsc --noEmit",
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "keywords": [
